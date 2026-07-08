@@ -1,0 +1,17 @@
+{
+  "name": "lumpia/app",
+  "description": "Aplikasi kasir lumpia",
+  "type": "project",
+  "autoload": {
+    "classmap": [
+      "config/",
+      "tests/"
+    ]
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
